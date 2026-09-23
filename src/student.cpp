@@ -151,13 +151,13 @@ bool hapusHalaman(DNode*& head, DNode*& tail, int nomor) {
             }
             delete temp;
 
-            return false;
+            return true;
         }
         
         temp = temp -> next;
     }
 
-    return true;
+    return false;
 }
 
 // SOAL 4
